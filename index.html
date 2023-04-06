@@ -2,52 +2,75 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | TopTrip</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | TodeTrip</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="contato.html">Contato</a>
-      </li>
-    </ul>
+    <header>
+      <img src="assets/img/logo.svg" alt="Logo do TodeTrip" />
+      <nav>
+        <input type="search" id="search" placeholder="Pesquisar no site" maxlength="100" />
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="#">Entrar</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h1>A melhores dicas para a sua viagem!</h1>
-    <img src="assets/img/banner.jpg" width="100%">
-    <p>
-      Viajar é se aventurar, descobrir novos destinos, novas pessoas, um mundo
-      novo. Uma pesquisa britânica demonstrou que viajar agrega muitos
-      benefícios para a saúde, entre eles estão: melhora na qualidade do sono;
-      diminui a pressão arterial, o que minimiza o risco de infarto e aumenta a
-      absorção de vitaminas; e mais disposição física.
-    </p>
+    <main class="conteudo">
+      <div>
+        <img src="assets/img/banner.jpg" alt="Banner sobre viagem" />
+        <h1>A melhores dicas para a sua viagem!</h1>
+      </div>
 
-    <p>
-      Um estudo americano acompanhou algumas profissionais por 20 anos e
-      constatou que mulheres que não tiram férias têm maior tendência em
-      apresentar problemas cardíacos. Já outro estudo, feito com homens, mostrou
-      que a falta de descanso aumenta o risco de doenças coronárias. Por isso,
-      evite ficar longos períodos sem tirar uns dias de descanso.
-    </p>
+      <section class="conteudo-principal">
+        <p>
+          Viajar é se aventurar, descobrir novos destinos, novas pessoas, um
+          mundo novo. Uma pesquisa britânica demonstrou que viajar agrega muitos
+          benefícios para a saúde, entre eles estão: melhora na qualidade do
+          sono; diminui a pressão arterial, o que minimiza o risco de infarto e
+          aumenta a absorção de vitaminas; e mais disposição física.
+        </p>
+        <p>
+          Um estudo americano acompanhou algumas profissionais por 20 anos e
+          constatou que mulheres que não tiram férias têm maior tendência em
+          apresentar problemas cardíacos. Já outro estudo, feito com homens,
+          mostrou que a falta de descanso aumenta o risco de doenças coronárias.
+          Por isso, evite ficar longos períodos sem tirar uns dias de descanso.
+        </p>
+      </section>
 
-    <h2>Porque viajar é tão bom? Sete motivos</h2>
-    <ol>
-      <li>Ajuda a desenvolve suas habilidades</li>
-      <li>Cria novas experiências</li>
-      <li>Fortifica os laços afetivos com a família.</li>
-      <li>Traz benefícios à saúde</li>
-      <li>Melhora o relacionamento</li>
-      <li>Ajuda a aprender como planejar e se organizar</li>
-      <li>Aumenta/amplia o seu conhecimento</li>
-    </ol>
+      <section class="conteudo-secundario">
+          <div class="container">
+            <div class="texto">
+          <h2>Porque viajar é tão bom? Sete motivos</h2>
+              <ol>
+                <li>1.Ajuda a desenvolve suas habilidades</li>
+                <li>2.Cria novas experiências</li>
+                <li>3.Fortifica os laços afetivos com a família.</li>
+                <li>4.Traz benefícios à saúde</li>
+                <li>5.Melhora o relacionamento</li>
+                <li>6.Ajuda a aprender como planejar e se organizar</li>
+                <li>7.Aumenta/amplia o seu conhecimento</li>
+              </ol>
+            </div>
+            <div class="video">
+              <h3>Veja dicas de lugares incríveis para conhcer no Brasil</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/yAlbT9n8uow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
 
-    <h3>Veja dicas de lugares incríveis para conhcer no Brasil</h3>
+      </section>
+    </main>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yAlbT9n8uow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
-    ></iframe>
+    <footer>
+      <img class="logo-rodape" src="assets/img/logo.svg" />
+      <p class="copyright">&copy; Copyrigth TodeTrip -2023</p>
+    </footer>
   </body>
 </html>
